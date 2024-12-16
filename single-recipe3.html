@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egg curry</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+     <!-- nav -->
+     <nav class="navbar">
+        <div class="nav-center">
+          <!-- header -->
+          <div class="nav-header">
+            <a href="index.html" class="nav-logo">
+              <img src="./assets/logo.svg" alt="simply recipes">
+            </a>
+            <button type="button" class="btn nav-btn">
+              <i class="fas fa-align-justify"></i>
+            </button>
+          </div>
+
+          <!-- links -->
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">home</a>
+            <a href="about.html" class="nav-link">about</a>
+            <a href="tags.html" class="nav-link">tags</a>
+            <a href="recipes.html" class="nav-link">recipes</a>
+            <div class="nav-link contact-link">
+              <a href="contact.html" class="btn">contact</a>
+
+            </div>
+             
+          </div>
+        </div>
+      </nav>
+     <!-- end of the nav  -->
+    <!-- main  -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/recipe-2.webp" class="img recipe-hero-img" alt="noodles">
+          <article>
+            <h2>Egg curry</h2>
+            <p>
+                 Egg curry is a delicious dish made with hard-boiled eggs cooked in a flavorful 
+                 and aromatic sauce. There are numerous variations of egg curry across different cultures,
+                  each with its own unique blend of spices and ingredients. Common ingredients often include onions, 
+                  tomatoes, ginger, garlic, and a variety of spices like turmeric, cumin, coriander, and garam masala.
+                The preparation can vary widely. Some recipes call for a thick tomato-based gravy, while others might incorporate 
+                coconut milk for a creamier texture. It's a versatile dish that can be adjusted to suit different preferences, whether you prefer it spicy, mild, creamy, or tangy.
+            </p>
+            <!-- recipe icons  -->
+            <div class="recipe-icons">
+              <!-- single recipe icon  -->
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>10 min.</p>
+              </article>
+               <!-- single recipe icon  -->
+               <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min.</p>
+              </article>
+               <!-- single recipe icon  -->
+               <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 serving</p>
+              </article>
+            </div>
+            <!-- recipe tags  -->
+            <div class="recipe-tags">
+              tags : <a href="tag-template.html">noodles</a>
+                     <a href="tag-template.html">fastfood</a>
+                     <a href="tag-template.html">lunch</a>
+                     <a href="tag-template.html">food</a>
+            </div>
+          </article>
+        </section>
+        <!-- recipe content  -->
+        <section class="recipe-content">
+          <article>
+            <h4>instruction</h4>
+            <!-- single instruction  -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                <b>Prepare the eggs:</b>Prepare the eggs: Boil the eggs, peel them, and make slits in each egg using a knife. 
+                This helps the flavors penetrate the eggs. Set aside.
+              </p>
+            </div>
+             <!-- end of single instruction  -->
+             <!-- single instruction  -->
+             <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+             <p><b>Sauté aromatics:</b> Heat oil in a pan over medium heat. 
+                Add cumin seeds and let them sizzle. Then, add chopped onions and 
+                sauté until they turn golden brown. Add minced garlic and grated ginger, cook for a minute until fragrant.</p>
+            </div>
+             <!-- end of single instruction  -->
+             <!-- single instruction  -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                <b>Add spices:</b> Lower the heat and add turmeric powder, red chili powder, coriander powder, and a pinch of salt. Mix well and cook 
+                the spices for a minute to release their flavors.
+              </p>
+            </div>
+             <!-- end of single instruction  -->
+              <!-- single instruction  -->
+            <div class="single-instruction">
+                <header>
+                  <p>step 4</p>
+                  <div></div>
+                </header>
+                <p>
+                   <b> Create the curry base:</b> Pour in the tomato puree and cook until the oil starts to separate from the mixture.
+                    This indicates the tomatoes are cooked and the base is ready for the eggs.
+                </p>
+              </div>
+               <!-- end of single instruction  -->
+                <!-- single instruction  -->
+            <div class="single-instruction">
+                <header>
+                  <p>step 5</p>
+                  <div></div>
+                </header>
+                <p>
+                    <b>Simmer with eggs:</b>Gently place the slit boiled eggs into the curry base. Spoon some sauce over the eggs. 
+                    Cover the pan and simmer for 5-7 minutes to allow the eggs to absorb the flavors. Sprinkle garam masala on top and garnish with fresh coriander leaves before serving.
+                </p>
+            </div>
+               <!-- end of single instruction  -->
+               <hr>
+             <!-- comment  -->
+            <div class="comment">
+                <label for="comment">Would you like any other recipes or cooking tips?
+                    <div class="form-row">
+                      <label for="text-area" class="form-label"></label>
+                      <input type="text" name="text-area" id="text-area" class="form-textarea">
+                    </div>
+                </label>
+              <!-- end of  comment  -->
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">5 boiled eggs</p>
+              <p class="single-ingredient">2 onions, finely chopped</p>
+              <p class="single-ingredient">2 tomatoes, pureed</p>
+              <p class="single-ingredient">2 cloves of garlic, minced</p>
+              <p class="single-ingredient">1-inch piece of ginger, grated</p>
+              <p class="single-ingredient">1 teaspoon cumin seeds</p>
+              <p class="single-ingredient">1 teaspoon turmeric powder</p>
+              <p class="single-ingredient">1 teaspoon red chili powder (adjust to taste) </p>
+              <p class="single-ingredient">1 teaspoon garam masala</p>
+              <p class="single-ingredient">Salt to taste</p>
+              <p class="single-ingredient">2 tablespoons oil</p>
+              <p class="single-ingredient">Fresh coriander leaves for garnish</p>
+            </div> 
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Hand Blender</p>
+              <p class="single-tool">Large Heavy Pot With Lid</p>
+              <p class="single-tool">Measuring Spoons</p>
+              <p class="single-tool">Measuring Cups</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- end of main   -->
+     <!-- footer -->
+     <footer class="page-footer">
+      <p>
+         &copy; <span id="date">2020</span>
+         <span class="footer-logo"> SimplyRecipes</span>
+          Built by <a href="https://www.google.com">NOBODY</a></p>
+     </footer>
+     <script src="./js/app.js"></script>
+  </body>
+</html>
